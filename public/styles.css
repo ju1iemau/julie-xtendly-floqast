@@ -1,0 +1,345 @@
+body * {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0;
+}
+
+.banner-section {
+  background: #fff
+    url("https://drive.google.com/uc?id=19OsC4HG2ua3ds7V8vbhd0FPABtSszVOu")
+    no-repeat fixed center;
+  background-size: cover;
+}
+
+.banner-section .headline {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0)
+  );
+  letter-spacing: -2px;
+}
+.banner-section .headline .headline-logo {
+  line-height: 20px;
+}
+.banner-section .headline .headline-text {
+  line-height: 40px;
+}
+.banner-section .headline .main-heading {
+  color: #85bf3a;
+  font-weight: 500;
+}
+.banner-section .headline .subheading {
+  color: #3f3f3f;
+}
+.banner-section .schedule-box {
+  font-style: normal;
+  width: 70%;
+}
+.banner-section .schedule-box .white-box {
+  background-color: #fff;
+  border-radius: 0 5px 5px 0;
+  color: #6d6e70;
+  font-weight: 700;
+}
+.banner-section .schedule-box .green-box {
+  background: #fff
+    url("https://drive.google.com/uc?id=1q8lT5zsSE0LZ8hmnoACNsOOO6gNkVJh0")
+    no-repeat fixed center;
+  background-size: cover;
+  border-radius: 5px 0 0 5px;
+}
+.banner-section .schedule-box .white-box .green-text {
+  color: #8bc540;
+}
+.banner-section .schedule-box .white-box input {
+  border: #ddd 1px solid;
+}
+.banner-section .schedule-box .white-box input::placeholder {
+  color: #b8b8b8;
+  font-size: 0.8rem;
+}
+.banner-section .schedule-box .white-box .btn {
+  background-color: #8bc540;
+  border: #6f973b 2px solid;
+}
+
+/* Extra Small Devices */
+@media (max-width: 575px) {
+  .banner-section .headline {
+    width: 100% !important;
+  }
+  .banner-section .schedule-box {
+    width: 88%;
+  }
+}
+
+/* Small Devices */
+@media (min-width: 576px) {
+  .banner-section .headline {
+    padding-left: 10% !important;
+    width: 95% !important;
+  }
+  .banner-section .schedule-box {
+    width: 76%;
+  }
+}
+
+/* Extra Small to Small Devices */
+@media (max-width: 767px) {
+  body {
+    font-size: 0.9rem;
+  }
+  .banner-section .headline img {
+    max-width: 150px;
+  }
+  .banner-section .headline .main-heading {
+    font-size: 1.9rem;
+  }
+  .banner-section .headline .subheading {
+    font-size: 1.4rem;
+  }
+  .banner-section .schedule-box .green-box {
+    border-radius: 7px 7px 0 0;
+  }
+  .banner-section .schedule-box .white-box {
+    border-radius: 0 0 7px 7px;
+    font-size: 1.19rem;
+  }
+  .banner-section .schedule-box h3 {
+    font-size: 1.3rem;
+  }
+  .banner-section .schedule-box .white-box .btn {
+    font-size: 0.9rem;
+  }
+}
+
+/* Medium Devices */
+@media (min-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+  .banner-section .headline {
+    margin: 60px 0 170px 0 !important;
+    padding-left: 1% !important;
+    width: 75% !important;
+  }
+  .banner-section .headline .main-heading {
+    font-size: 2.2rem;
+  }
+  .banner-section .headline .subheading {
+    font-size: 1.5rem;
+  }
+  .banner-section .headline img {
+    max-width: 180px;
+  }
+  .banner-section .schedule-box {
+    width: 95%;
+  }
+  .banner-section .schedule-box h3 {
+    font-size: 1.4rem;
+  }
+  .banner-section .schedule-box .white-box {
+    font-size: 1.2rem;
+  }
+  .banner-section .schedule-box .white-box .btn {
+    font-size: 0.8rem;
+  }
+}
+
+/* Large Devices */
+@media (min-width: 992px) {
+  .banner-section .headline {
+    margin: 70px 0 160px 0 !important;
+    padding-left: 6.5% !important;
+    width: 55% !important;
+  }
+  .banner-section .headline img {
+    max-width: 200px;
+  }
+  .banner-section .headline .main-heading {
+    font-size: 2.4rem;
+  }
+  .banner-section .headline .subheading {
+    font-size: 1.6rem;
+  }
+  .banner-section .schedule-box {
+    width: 85%;
+  }
+  .banner-section .schedule-box h3 {
+    font-size: 1.5rem;
+  }
+  .banner-section .schedule-box .white-box .btn {
+    font-size: 1rem;
+  }
+}
+
+/* Extra Large Devices */
+@media (min-width: 1200px) {
+  .banner-section .headline {
+    padding-left: 14% !important;
+  }
+  .banner-section .headline img {
+    max-width: 100%;
+  }
+  .banner-section .headline .main-heading {
+    font-size: 2.6rem;
+  }
+  .banner-section .headline .subheading {
+    font-size: 1.8rem;
+  }
+  .banner-section .schedule-box {
+    width: 70%;
+  }
+  .banner-section .schedule-box h3 {
+    font-size: 1.6rem;
+  }
+  .banner-section .schedule-box .white-box {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    font-size: 1.1rem;
+  }
+  .banner-section .headline {
+    margin: 70px 0 180px 0 !important;
+    padding-left: 15% !important;
+    width: 60% !important;
+  }
+  .banner-section .headline .main-heading {
+    font-size: 2.9rem;
+  }
+  .banner-section .headline .subheading {
+    font-size: 2rem;
+  }
+  .banner-section .headline .headline-text {
+    line-height: 43px;
+  }
+  .banner-section .schedule-box {
+    width: 68%;
+  }
+  .banner-section .schedule-box h3 {
+    font-size: 1.7rem;
+  }
+  .banner-section .schedule-box .white-box {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1600px) {
+  body {
+    font-size: 1.25rem;
+  }
+  .banner-section .headline {
+    margin: 90px 0 200px 0 !important;
+    padding-left: 16.2% !important;
+  }
+  .banner-section .headline .main-heading {
+    font-size: 3.3rem;
+  }
+  .banner-section .headline .subheading {
+    font-size: 2.3rem;
+  }
+  .banner-section .headline .headline-text {
+    line-height: 48px;
+  }
+  .banner-section .headline img {
+    width: 285px;
+  }
+  .banner-section .schedule-box {
+    width: 66%;
+  }
+  .banner-section .schedule-box h3 {
+    font-size: 1.95rem;
+  }
+  .banner-section .schedule-box .white-box {
+    font-size: 1.6rem;
+  }
+  .banner-section .schedule-box .white-box input {
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+  }
+  .banner-section .schedule-box .white-box input::placeholder {
+    font-size: 0.9rem;
+  }
+  .banner-section .schedule-box .white-box .btn {
+    font-size: 1.15rem;
+    margin-top: -5px !important;
+  }
+}
+
+@media (min-width: 1800px) {
+  body {
+    font-size: 1.4rem;
+  }
+  .banner-section .headline {
+    margin: 100px 0 220px 0 !important;
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+  }
+  .banner-section .headline img {
+    width: 320px;
+  }
+  .banner-section .headline .headline-text {
+    line-height: 55px;
+  }
+  .banner-section .headline .main-heading {
+    font-size: 3.7rem;
+  }
+  .banner-section .headline .subheading {
+    font-size: 2.55rem;
+  }
+  .banner-section .schedule-box h3 {
+    font-size: 2.25rem;
+  }
+  .banner-section .schedule-box .white-box {
+    font-size: 1.8rem;
+  }
+  .banner-section .schedule-box .white-box input {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+  .banner-section .schedule-box .white-box input::placeholder {
+    font-size: 1.1rem;
+  }
+  .banner-section .schedule-box .white-box .btn {
+    font-size: 1.3rem;
+    margin-top: -5px !important;
+  }
+}
+
+@media (min-width: 1900px) {
+  body {
+    font-size: 1.45rem;
+  }
+  .banner-section .headline {
+    margin: 110px 0 230px 0 !important;
+    width: 65% !important;
+  }
+  .banner-section .headline img {
+    width: 330px;
+  }
+  .banner-section .headline .main-heading {
+    font-size: 3.8rem;
+  }
+  .banner-section .headline .subheading {
+    font-size: 2.65rem;
+  }
+  .banner-section .headline .headline-text {
+    line-height: 60px;
+  }
+  .banner-section .schedule-box h3 {
+    font-size: 2.3rem;
+  }
+  .banner-section .schedule-box .white-box {
+    font-size: 1.85rem;
+  }
+  .banner-section .schedule-box .white-box input {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .banner-section .schedule-box .white-box .btn {
+    font-size: 1.4rem;
+  }
+}
